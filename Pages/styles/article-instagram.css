@@ -32,6 +32,17 @@ li {
 .NavBar-liste a {
     text-decoration: none;
     color: white;
+    font-weight: 900;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 10px;
+    transition: background-color 0.3s, box-shadow 0.3s, filter 0.3s;
+}
+
+.NavBar-liste a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    filter: blur(0.4px);
 }
 
 main {
