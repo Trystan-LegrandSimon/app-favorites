@@ -97,6 +97,43 @@ section p {
     max-width: 200px;
 }
 
+.btns {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-interne {
+    background-color: #007bff;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-interne:hover {
+    background-color: #0056b3;
+}
+
+.btn-externe {
+    background-color: black;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-externe:hover {
+    background-color: #45474B;
+}
+
 footer {
     text-align: center;
     background-color: #333;
